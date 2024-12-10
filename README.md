@@ -123,7 +123,7 @@ For most users, a **managed database** is a better choice unless you need custom
 
 This structured approach helps optimize performance, scalability, and reliability for your application!
 
-### Simplified Explanation of Docker and How It Works
+### Docker
 
 #### **What is Docker?**
 Docker is like a box where you can package your app along with everything it needs to work (like libraries, settings, and dependencies). This "box" is called a **container**. The magic of Docker is that this container can run on any computer, anywhere, and it will behave exactly the same way.
