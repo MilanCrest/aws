@@ -121,7 +121,7 @@ For most users, a **managed database** is a better choice unless you need custom
 4. AWS provides **managed database services** to save time and effort.
 5. Choose the database type based on your application’s needs.
 
-This structured approach helps optimize performance, scalability, and reliability for your application!
+---
 
 ### Docker
 
@@ -159,5 +159,3 @@ Since Docker containers are lightweight and don’t need a full operating system
   - **Docker Example:** Cooking all dishes in one shared kitchen (faster and uses fewer resources).
 
 ---
-
-This overview helps you understand Docker’s basics. Next, in ECS (Elastic Container Service), you'll learn how AWS helps manage Docker containers more effectively.
