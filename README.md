@@ -1,6 +1,6 @@
 ## Table of Contents
 - [Docker](#Docker)
-- [ECS, Fargate, and ECR](#ECS, Fargate, and ECR)
+- [ECS, Fargate, and ECR](#ecs-fargate-and-ecr)
 
 ---
 
