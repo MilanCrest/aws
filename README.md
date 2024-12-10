@@ -1,6 +1,7 @@
 ## Table of Contents
 - [Docker](#Docker)
 - [ECS, Fargate, and ECR](#ecs-fargate-and-ecr)
+- [Amazon EKS](#amazon-eks-elastic-kubernetes-service)
 
 ---
 
@@ -234,7 +235,7 @@ Both ECS and Fargate let you run Docker containers on AWS, and you store Docker 
 Let's break down **Amazon EKS (Elastic Kubernetes Service)** and the concept of **Kubernetes** into simpler terms.
 
 ---
-
+### Amazon EKS (Elastic Kubernetes Service)
 ### **What is Kubernetes?**
 - **Kubernetes** is a system that helps you manage and run **containers** at scale. 
 - Containers are like **mini-apps** that package everything an application needs (like code, libraries, and system tools) to run anywhere. It’s like putting your app in a **box** that can be moved and run on any computer.
