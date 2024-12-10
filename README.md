@@ -1,6 +1,8 @@
 ## Table of Contents
 - [Docker](#Docker)
 
+---
+
 ### **What is a Database?**
 A **database** is like a structured container for data. It helps you store, organize, and retrieve data efficiently. For example, think of a school storing student information. Instead of saving each student’s info in separate files, a database organizes it into tables, making searching or updating data faster.
 
