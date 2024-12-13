@@ -59,7 +59,7 @@ IAM ensures that each individual only has access to the AWS resources they need,
 ---
 
 
-### IAM Policies
+# IAM Policies
 
 An **IAM policy** is like a set of rules written in a structured format (JSON) that defines what actions users or groups in AWS can or cannot perform on specific resources. Let’s break it down step-by-step and use examples to make it clear.
 
