@@ -61,10 +61,6 @@ IAM ensures that each individual only has access to the AWS resources they need,
 
 ---
 
-This section can be added under a **"Documentation"** or **"Introduction"** section of your GitHub repository’s README file. Let me know if you'd like further refinements!
-
----
-
 ### **What is a Database?**
 A **database** is like a structured container for data. It helps you store, organize, and retrieve data efficiently. For example, think of a school storing student information. Instead of saving each student’s info in separate files, a database organizes it into tables, making searching or updating data faster.
 
