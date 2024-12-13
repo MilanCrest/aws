@@ -7,10 +7,6 @@
 
 ---
 
-Here’s a polished response suitable for a **README file**:
-
----
-
 ## AWS Identity and Access Management (IAM) Overview
 
 **Identity and Access Management (IAM)** is a global service in AWS that helps securely control access to AWS resources. It allows you to manage **users**, **groups**, and their **permissions** effectively.
