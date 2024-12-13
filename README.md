@@ -12,7 +12,7 @@
 
 **Identity and Access Management (IAM)** is a global service in AWS that helps securely control access to AWS resources. It allows you to manage **users**, **groups**, and their **permissions** effectively.
 
-### Key Concepts:
+## Key Concepts:
 1. **Root User**:  
    - The root user is created when you set up your AWS account.  
    - It has full control over all resources but should only be used for initial setup. Avoid using or sharing the root account for day-to-day tasks.
