@@ -58,18 +58,6 @@ IAM ensures that each individual only has access to the AWS resources they need,
 
 ---
 
-### **What is a Database?**
-A **database** is like a structured container for data. It helps you store, organize, and retrieve data efficiently. For example, think of a school storing student information. Instead of saving each student’s info in separate files, a database organizes it into tables, making searching or updating data faster.
-
----
-
-### **Why Use a Database Instead of Files?**
-Storing data as individual files (e.g., on S3 or EBS) works for basic storage, but databases provide structure:
-- They allow for **indexes** to search quickly.
-- They define relationships between data (e.g., linking students to their departments).
-- They scale better when dealing with large datasets.
-
----
 
 ### IAM Policies
 
@@ -170,6 +158,21 @@ For example:
 - Focus on least privilege to secure AWS resources.
 
 This should clarify IAM policies and how they work in AWS!
+
+---
+
+---
+
+### **What is a Database?**
+A **database** is like a structured container for data. It helps you store, organize, and retrieve data efficiently. For example, think of a school storing student information. Instead of saving each student’s info in separate files, a database organizes it into tables, making searching or updating data faster.
+
+---
+
+### **Why Use a Database Instead of Files?**
+Storing data as individual files (e.g., on S3 or EBS) works for basic storage, but databases provide structure:
+- They allow for **indexes** to search quickly.
+- They define relationships between data (e.g., linking students to their departments).
+- They scale better when dealing with large datasets.
 
 ---
 
