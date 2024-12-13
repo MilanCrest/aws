@@ -63,7 +63,7 @@ IAM ensures that each individual only has access to the AWS resources they need,
 
 An **IAM policy** is like a set of rules written in a structured format (JSON) that defines what actions users or groups in AWS can or cannot perform on specific resources. Let’s break it down step-by-step and use examples to make it clear.
 
-#### **1. Policies Applied to Groups and Users**
+### **1. Policies Applied to Groups and Users**
 
 - Imagine you have:
   - A **Developers group** with Alice, Bob, and Charles.
@@ -84,7 +84,7 @@ Charles and David could belong to another group, say the **Audit team**, with it
 
 This shows how policies can overlap, and a user’s final permissions come from all policies applied to them.
 
-#### **2. Structure of an IAM Policy**
+### **2. Structure of an IAM Policy**
 
 IAM policies are written in JSON format and include these parts:
 
@@ -109,7 +109,7 @@ IAM policies are written in JSON format and include these parts:
      - **Condition** (optional): Adds conditions for when the policy is applied.  
        Example: Allow access only during specific hours or from specific IP addresses.
 
-#### **3. Example Policy**
+### **3. Example Policy**
 Let’s say you want to allow a user to upload files to a specific S3 bucket.
 
 ```json
@@ -134,7 +134,7 @@ Let’s say you want to allow a user to upload files to a specific S3 bucket.
 - **Action**: Alice can perform the `s3:PutObject` action (upload files).  
 - **Resource**: Applies to all objects in `my-bucket`.
 
-#### **4. Key Concept: Least Privilege**
+### **4. Key Concept: Least Privilege**
 
 AWS recommends giving users and groups only the permissions they need to perform their job—no more, no less. This is called the **least privilege principle**.  
 For example:
