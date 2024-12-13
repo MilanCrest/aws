@@ -63,8 +63,6 @@ IAM ensures that each individual only has access to the AWS resources they need,
 
 An **IAM policy** is like a set of rules written in a structured format (JSON) that defines what actions users or groups in AWS can or cannot perform on specific resources. Let’s break it down step-by-step and use examples to make it clear.
 
----
-
 #### **1. Policies Applied to Groups and Users**
 
 - Imagine you have:
@@ -85,8 +83,6 @@ Charles and David could belong to another group, say the **Audit team**, with it
 - **David** inherits permissions from both the Operations and Audit team policies.
 
 This shows how policies can overlap, and a user’s final permissions come from all policies applied to them.
-
----
 
 #### **2. Structure of an IAM Policy**
 
@@ -113,8 +109,6 @@ IAM policies are written in JSON format and include these parts:
      - **Condition** (optional): Adds conditions for when the policy is applied.  
        Example: Allow access only during specific hours or from specific IP addresses.
 
----
-
 #### **3. Example Policy**
 Let’s say you want to allow a user to upload files to a specific S3 bucket.
 
@@ -140,8 +134,6 @@ Let’s say you want to allow a user to upload files to a specific S3 bucket.
 - **Action**: Alice can perform the `s3:PutObject` action (upload files).  
 - **Resource**: Applies to all objects in `my-bucket`.
 
----
-
 #### **4. Key Concept: Least Privilege**
 
 AWS recommends giving users and groups only the permissions they need to perform their job—no more, no less. This is called the **least privilege principle**.  
@@ -150,31 +142,14 @@ For example:
 
 ---
 
-#### **Takeaways for the Exam**
-
-- Understand how policies are attached to users, groups, and roles.  
-- Know the parts of a policy (Effect, Principal, Action, Resource).  
-- Remember that permissions can come from multiple policies for the same user.  
-- Focus on least privilege to secure AWS resources.
-
-This should clarify IAM policies and how they work in AWS!
-
----
-
----
-
 ### **What is a Database?**
 A **database** is like a structured container for data. It helps you store, organize, and retrieve data efficiently. For example, think of a school storing student information. Instead of saving each student’s info in separate files, a database organizes it into tables, making searching or updating data faster.
-
----
 
 ### **Why Use a Database Instead of Files?**
 Storing data as individual files (e.g., on S3 or EBS) works for basic storage, but databases provide structure:
 - They allow for **indexes** to search quickly.
 - They define relationships between data (e.g., linking students to their departments).
 - They scale better when dealing with large datasets.
-
----
 
 ### **Types of Databases**
 
@@ -194,8 +169,6 @@ These organize data into **tables** with rows and columns, just like Excel sprea
 
 - **Examples on AWS**:
   - Amazon RDS (Relational Database Service): A managed service for databases like MySQL, PostgreSQL, and SQL Server.
-
----
 
 #### 2. **NoSQL Databases**:  
 These are more flexible and are designed for modern applications. They don’t use tables and rows but instead use formats like JSON.  
@@ -224,8 +197,6 @@ These are more flexible and are designed for modern applications. They don’t u
   - Real-time applications like gaming, IoT, or social networks.
   - Examples on AWS: Amazon DynamoDB, Amazon ElastiCache.
 
----
-
 ### **AWS Managed Databases**:  
 AWS offers **managed database services**, which means AWS handles the underlying tasks like scaling, backups, patching, and monitoring.  
 - **Why Choose Managed?**
@@ -238,8 +209,6 @@ AWS offers **managed database services**, which means AWS handles the underlying
   - DynamoDB (for NoSQL).
   - Amazon Aurora (for high-performance relational databases).
 
----
-
 ### **Self-Managed Databases on EC2**:  
 You can also install and run databases on an EC2 instance. However, you’ll need to handle:
   - Backups.
@@ -248,8 +217,6 @@ You can also install and run databases on an EC2 instance. However, you’ll nee
   - High availability.
   
 For most users, a **managed database** is a better choice unless you need custom configurations.
-
----
 
 ### **Relational vs. NoSQL Comparison**
 
@@ -261,8 +228,6 @@ For most users, a **managed database** is a better choice unless you need custom
 | **Use Case**              | Structured data with relationships   | High-performance modern apps      |
 | **Examples on AWS**       | Amazon RDS, Aurora                   | DynamoDB, ElastiCache             |
 
----
-
 ### **Shared Responsibility for Databases on AWS**
 - **AWS Handles**:
   - Infrastructure.
@@ -273,8 +238,6 @@ For most users, a **managed database** is a better choice unless you need custom
 - **You Handle**:
   - How the data is structured and queried.
   - Access controls and application design.
-
----
 
 ### **Summary**
 1. Databases are structured tools to store and retrieve data efficiently.
