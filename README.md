@@ -10,15 +10,11 @@
 
 # **Understanding Cloud Computing: A Simple Overview**
 
----
-
 ### **What is the Cloud?**
 
 The **cloud** is like renting someone else’s powerful computers (called servers) to store data and run programs instead of keeping everything on your personal computer or company servers. 
 
 Instead of worrying about buying, maintaining, and scaling your own servers, you use servers provided by a cloud provider like AWS, Google Cloud, or Microsoft Azure. They take care of everything for you, and you pay for what you use.
-
----
 
 ### **How Do Websites Work?**
 
@@ -36,8 +32,6 @@ Imagine you're visiting a website. Here's what happens:
 **Analogy**:  
 Imagine writing a letter (request) and mailing it to a friend (server). Your letter travels through a postal network (internet). When your friend gets it, they read it, write back, and send their reply.
 
----
-
 ### **What is Inside a Server?**
 
 A server is like a powerful computer with specific parts:
@@ -49,8 +43,6 @@ A server is like a powerful computer with specific parts:
 **Analogy**:  
 - CPU + RAM = Your brain thinking and remembering things quickly.  
 - Storage = Your long-term memory, like a notebook to save ideas.  
-
----
 
 ### **How Things Worked Before the Cloud**
 
@@ -64,8 +56,6 @@ In the past, businesses used their own servers. Here's how it looked:
 3. **Disaster Risks**: Power outages, fires, or natural disasters could wipe out data.  
 4. **24/7 Monitoring**: Companies needed a team to handle server issues all the time.
 
----
-
 ### **What Does the Cloud Solve?**
 
 The **cloud** simplifies everything:
@@ -75,8 +65,6 @@ The **cloud** simplifies everything:
 4. **Global Access**: Your data is available anywhere, and cloud providers handle backups.  
 5. **Disaster Recovery**: Cloud providers handle disasters with multiple backups and safety measures.
 
----
-
 ### **Analogy: The Cloud vs. Old Systems**
 
 **Old Way**:  
@@ -85,14 +73,13 @@ Owning a car. You pay for maintenance, gas, insurance, and repairs, even if you 
 **Cloud Way**:  
 Using a ride-sharing service. You don’t own the car but pay only when you use it, and the company takes care of everything else.
 
----
-
 ### **Why is the Cloud Important?**
 
 - It's fast, flexible, and cost-effective.
 - It lets businesses focus on what they do best (like building apps or websites) without worrying about managing physical servers.
 
 In the next lecture, you'll learn more about how the cloud works and its benefits!
+
 ---
 
 # AWS Identity and Access Management (IAM) Overview
