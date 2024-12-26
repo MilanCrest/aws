@@ -1,0 +1,53 @@
+### AWS Security Token Service (STS) - Simplified
+
+AWS STS is a service that gives you **temporary credentials** with limited permissions to access AWS resources. Think of it as getting a short-term access pass instead of a permanent key. Here's how it works and where it helps:
+
+---
+
+### **How It Works**
+1. **Temporary Credentials:**
+   - Similar to your AWS **Access Key** and **Secret Key**, but these credentials:
+     - **Expire after a short time** (you set the expiration duration).
+     - Are safer since they don't last forever.
+
+2. **Assume Role Process:**
+   - A user or application requests to "assume a role" using an API call to STS.
+   - STS generates and sends back temporary credentials:
+     - **Access Key**
+     - **Secret Key**
+     - **Session Token**
+   - These credentials let you access AWS resources **with the permissions defined in the role**.
+
+---
+
+### **Use Cases**
+1. **Identity Federation:**
+   - You manage user identities outside AWS (e.g., in your company's system).
+   - STS generates tokens so these users can temporarily access AWS resources.
+
+   **Example:** Employees in a company use their company login to access AWS resources for their projects.
+
+2. **Cross-Account or Same-Account Role Access:**
+   - You want one AWS account or role to access resources in another account.
+   - STS issues credentials for temporary access.
+
+   **Example:** A developer assumes an admin role temporarily to perform specific tasks.
+
+3. **IAM Roles for EC2 Instances:**
+   - When you assign a role to an EC2 instance, STS works behind the scenes to:
+     - Automatically refresh credentials.
+     - Ensure the instance always has valid temporary credentials.
+
+   **Example:** An EC2 instance automatically gets updated credentials to read/write data from an S3 bucket.
+
+---
+
+### **Key Benefit**
+Temporary credentials are **safer** and **more flexible**:
+- Safer: They expire, reducing the risk of long-term misuse.
+- Flexible: You can tailor permissions to specific tasks or users for a limited time.
+
+---
+
+### **Quick Summary**
+AWS STS is like a temporary pass for users or systems to access AWS securely. Anytime you need short-term, limited-access credentials (e.g., for cross-account roles or EC2), STS is the service that makes it happen.
