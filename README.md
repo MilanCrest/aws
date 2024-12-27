@@ -1,5 +1,5 @@
 ## Table of Contents
-- [AWS Identity and Access Management (IAM) Overview](#aws-identity-and-access-management-iam-overview)
+- [AWS Identity and Access Management (IAM)](#aws-identity-and-access-management-iam-overview)
 - [IAM Policies](#iam-policies)
 - [Docker](#Docker)
 - [ECS, Fargate, and ECR](#ecs-fargate-and-ecr)
