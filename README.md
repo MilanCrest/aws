@@ -1,15 +1,17 @@
 # AWS Notes
 
 ## Table of Contents
-1. [IAM](#iam)
-    - [IAM: Users, Groups, Policies](#iam-users-groups-policies)
-    - [IAM Policies](#iam-policies)
-    - [Protecting IAM Users and Groups](#protecting-iam-users-and-groups)
-    - [Management Console, CLI and SDK](#management-console-cli-and-sdk)
-    - [Cloud Shell](#cloud-shell)
-    - [IAM Roles](#iam-roles)
-    - [IAM Security Tools](#iam-security-tools)
-    - [IAM Shared Responsibility Model](#iam-shared-responsibility-model)
+<details>
+  <summary>1. IAM</summary>
+  - [IAM: Users, Groups, Policies](#iam-users-groups-policies)  
+  - [IAM Policies](#iam-policies)  
+  - [Protecting IAM Users and Groups](#protecting-iam-users-and-groups)  
+  - [Management Console, CLI and SDK](#management-console-cli-and-sdk)  
+  - [Cloud Shell](#cloud-shell)  
+  - [IAM Roles](#iam-roles)  
+  - [IAM Security Tools](#iam-security-tools)  
+  - [IAM Shared Responsibility Model](#iam-shared-responsibility-model)  
+</details>
 
 ---
 ### IAM
