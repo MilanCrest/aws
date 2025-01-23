@@ -10,9 +10,9 @@
     - [IAM Roles](#iam-roles)
     - [IAM Security Tools](#iam-security-tools)
     - [IAM Shared Responsibility Model](#iam-shared-responsibility-model)
-
+2. [EC2](#ec2)
 ---
-### IAM
+## IAM
 ### IAM: Users, Groups, Policies
 
 #### **Core Concepts**
@@ -193,3 +193,5 @@
   - Customer = Secures **usage in the cloud**  
 
 ---
+
+## EC2
