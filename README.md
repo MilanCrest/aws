@@ -1,12 +1,64 @@
 # AWS Notes
 
 ## Table of Contents
-1. [Protecting IAM Users and Groups](#protecting-iam-users-and-groups)
-2. [Management Console, CLI and SDK](#management-console-cli-and-sdk)
-3. [Cloud Shell](#cloud-shell)
-4. [IAM Roles](#iam-roles)
-5. [IAM Security Tools](#iam-security-tools)
-6. [IAM Shared Responsibility Model](#iam-shared-responsibility-model)
+1. [IAM: Users, Groups, Policies](#iam-users-groups-policies)
+2. [IAM Policies](#iam-policies)
+3. [Protecting IAM Users and Groups](#protecting-iam-users-and-groups)
+4. [Management Console, CLI and SDK](#management-console-cli-and-sdk)
+5. [Cloud Shell](#cloud-shell)
+6. [IAM Roles](#iam-roles)
+7. [IAM Security Tools](#iam-security-tools)
+8. [IAM Shared Responsibility Model](#iam-shared-responsibility-model)
+
+---
+
+### IAM: Users, Groups, Policies
+
+#### **Core Concepts**
+- **Root Account**: Only for setup tasks, never for daily use.  
+- **IAM Users**: One user per individual, no sharing of credentials.  
+- **IAM Groups**: Groups are collections of users, used to assign permissions.  
+- **User-Group Association**: Users can belong to multiple groups.  
+- **Inline Policies**: Policies attached directly to users, not groups.  
+- **IAM Policies**: JSON documents defining permissions (e.g., EC2, CloudWatch).  
+- **Least Privilege**: Grant only the minimum required permissions.  
+
+#### **Key Features**
+- **Group Restrictions**: Groups can only contain users, not other groups.  
+- **Permission Assignment**: Defined via IAM policies.  
+- **Policy Syntax**: Policies are written in JSON format (actions, resources, conditions).  
+
+#### **Tools**
+- **IAM Console**: Create users, groups, and assign policies.  
+- **IAM Policies**: JSON structure to define permissions.  
+
+---
+
+### IAM Policies
+
+#### **Core Concepts**  
+- **IAM Policies**: Define permissions for users and resources.  
+- **Groups**: Assign policies at the group level for multiple users.  
+- **Inline Policies**: User-specific policies, not tied to groups.  
+- **Policy Inheritance**: Policies from multiple groups can be combined for a user.  
+
+#### **Policy Structure**  
+- **Version**: Policy language version (e.g., 2012-10-17).  
+- **ID**: Optional identifier for the policy.  
+- **Statements**: Core part of a policy, contains specific permissions.  
+- **Sid**: Optional Statement ID.  
+- **Effect**: Defines whether access is "Allow" or "Deny".  
+- **Principal**: Specifies the user, account, or role the policy applies to.  
+- **Action**: Defines which API actions are allowed/denied (e.g., s3:PutObject).  
+- **Resource**: Specifies the resource (e.g., S3 bucket) to which the action applies.  
+- **Condition**: Optional, specifies when the policy should apply.  
+
+#### **Policy Application**  
+- **Group-Level Policy**: Applies to all users within a group.  
+- **Inline Policy**: Tied to a specific user.  
+- **Multiple Group Policies**: Policies from different groups can be combined for a user.  
+
+---
 
 ### Protecting IAM Users and Groups
 
