@@ -6,6 +6,7 @@
 3. [Cloud Shell](#cloud-shell)
 4. [IAM Roles](#iam-roles)
 5. [IAM Security Tools](#iam-security-tools)
+6. [IAM Shared Responsibility Model](#iam-shared-responsibility-model)
 
 ### Protecting IAM Users and Groups
 
@@ -116,5 +117,26 @@
 #### **Use Cases**
 - **Auditing**: Credentials report for account-wide security checks.
 - **Permission Reduction**: Access Advisor to remove excess permissions.
+
+---
+
+### IAM Shared Responsibility Model
+
+- **Definition**: Shared responsibility, security **of** the cloud, security **in** the cloud.  
+- **AWS Responsibilities**:  
+  - Infrastructure  
+  - Global network security  
+  - Service configuration  
+  - Vulnerability analysis  
+  - Compliance (SOC, ISO)  
+- **Customer Responsibilities**:  
+  - IAM (Users, Groups, Roles, Policies)  
+  - Permissions (Least privilege, Access patterns)  
+  - Multi-Factor Authentication (MFA)  
+  - Access key rotation  
+  - Monitoring (IAM tools: Credentials Report, Access Advisor)  
+- **Key Distinction**:  
+  - AWS = Secures the **cloud**  
+  - Customer = Secures **usage in the cloud**  
 
 ---
