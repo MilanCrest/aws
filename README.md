@@ -5,6 +5,7 @@
 2. [Management Console, CLI and SDK](#management-console-cli-and-sdk)
 3. [Cloud Shell](#cloud-shell)
 4. [IAM Roles](#iam-roles)
+4. [IAM Security Tools](#iam-security-tools)
 
 ### Protecting IAM Users and Groups
 
@@ -102,3 +103,18 @@
 
 ---
 
+### IAM Security Tools
+
+#### **Core Concepts**
+- **IAM Credentials Report**: Account-level, user credentials status.
+- **IAM Access Advisor**: User-level, service permissions, last accessed.
+
+#### **Key Features**
+- **Credentials Report**: Audit credentials, identify inactive.
+- **Access Advisor**: Least privilege, unused permissions, optimize access.
+
+#### **Use Cases**
+- **Auditing**: Credentials report for account-wide security checks.
+- **Permission Reduction**: Access Advisor to remove excess permissions.
+
+---
