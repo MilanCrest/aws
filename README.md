@@ -2,8 +2,9 @@
 
 ## Table of Contents
 1. [Protecting IAM Users and Groups](#protecting-iam-users-and-groups)
+1. [Management Console, CLI and SDK](#management-console-cli-and-sdk)
 
-### Protecting IAM Users and Groups  
+### Protecting IAM Users and Groups
 
 #### **Core Concepts**  
 - **Password Policy:** Strengthens security by enforcing password rules.  
@@ -30,7 +31,7 @@
 
 ---
 
-### **Topic Overview**
+### **Management Console, CLI and SDK**
 - **Management Console:** Web-based interface for AWS.
 - **CLI (Command Line Interface):** Tool to interact with AWS services via command-line commands.
 - **SDK (Software Development Kit):** Libraries to integrate AWS APIs in application code.
@@ -57,19 +58,4 @@
   - Enables application-level AWS service interaction.
   - Mobile SDK for Android/iOS; IoT SDK for connected devices.
 
-### **Use Cases**
-- **Management Console:**  
-  - Beginners or GUI-based interactions.  
-- **CLI:**  
-  - Automating tasks and scripting.  
-  - Example: Copying files to S3 with `aws s3 cp`.  
-- **SDK:**  
-  - Embedding AWS services in applications.  
-  - Example: Build an app using Python's Boto SDK to query AWS APIs.
-
-### **Exam Focus**
-- **Management Console:** User credentials, MFA importance.  
-- **CLI:** Access keys, command usage, automation capabilities.  
-- **SDK:** Programming language support, integration for applications.  
-- **Access Keys:** Private and non-shareable; treat like passwords.  
-- **Boto SDK:** Python library used for AWS CLI and other applications.  
+---
