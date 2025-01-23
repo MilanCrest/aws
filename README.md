@@ -4,6 +4,7 @@
 1. [Protecting IAM Users and Groups](#protecting-iam-users-and-groups)
 2. [Management Console, CLI and SDK](#management-console-cli-and-sdk)
 3. [Cloud Shell](#cloud-shell)
+4. [IAM Roles](#iam-roles)
 
 ### Protecting IAM Users and Groups
 
@@ -81,3 +82,23 @@
 - **File Management**: Transfer files between local and Cloud Shell.
 
 ---
+
+### IAM Roles  
+
+#### **Core Concepts**  
+- **IAM Role**: Temporary permissions for AWS services.  
+- **AWS Services**: Used by EC2, Lambda, CloudFormation, etc.  
+- **Purpose**: Assign permissions to AWS services for secure actions.  
+
+#### **Key Features**  
+- **Temporary Credentials**: Secure and short-lived access.  
+- **Service Integration**: Works with AWS services (e.g., EC2, Lambda).  
+- **No Hard-Coded Keys**: Enhances security by avoiding static credentials.  
+
+#### **Use Cases**  
+- **EC2 Instance Role**: Access S3 or other AWS services securely.  
+- **Lambda Role**: Interact with DynamoDB or other resources.  
+- **CloudFormation Role**: Automate resource provisioning.  
+
+---
+
