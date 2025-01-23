@@ -5,7 +5,7 @@
 2. [Management Console, CLI and SDK](#management-console-cli-and-sdk)
 3. [Cloud Shell](#cloud-shell)
 4. [IAM Roles](#iam-roles)
-4. [IAM Security Tools](#iam-security-tools)
+5. [IAM Security Tools](#iam-security-tools)
 
 ### Protecting IAM Users and Groups
 
