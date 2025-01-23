@@ -80,8 +80,4 @@
 - **Temporary Development**: Script/command execution without local setup.
 - **File Management**: Transfer files between local and Cloud Shell.
 
-#### **Exam Focus**
-- **CLI in Cloud Shell**: Commands use account credentials.
-- **Region Availability**: Only in supported regions.
-- **Customization Options**: Font size, themes, terminal splits.
-- **File Upload/Download**: Persistent environment for files.
+---
