@@ -206,8 +206,6 @@
   - **Elastic Load Balancer (ELB):** Distributes traffic across multiple instances.  
   - **Auto Scaling Group (ASG):** Automatically adjusts instances based on demand.  
 
----
-
 #### Customizing EC2 Instances  
 - Choose Operating Systems: **Linux, Windows, macOS**.  
 - Configure resources:
@@ -218,30 +216,22 @@
   - Public or private IPs.
   - Firewall rules via **Security Groups**.  
 
----
-
 #### Instance Bootstrapping  
 - **EC2 User Data:**
   - Automates setup tasks during instance launch (e.g., installing software, updates).  
   - Runs **once** with **root privileges**.  
 - Use cases: Deploying applications, configuring the environment.  
 
----
-
 #### EC2 Instance Types to Remember  
 - **t2.micro:** Free tier eligible, 1 vCPU, 1 GB RAM. Best for testing or low-traffic apps.  
 - **t2.xlarge:** 4 vCPUs, 16 GB RAM. Moderate performance.  
 - **c5d.4xlarge:** High compute, 16 vCPUs, 32 GB RAM, 400 GB NVMe SSD, 10 Gbps network.  
-
----
 
 #### Benefits of EC2  
 - **Flexibility:** Full control over instance configurations.  
 - **Scalability:** Scale up or down based on demand with ASG and ELB.  
 - **Cost Efficiency:** Pay-as-you-go model, no upfront hardware costs.  
 - **Global Reach:** Deploy in AWS Regions and Availability Zones for low latency and high availability.  
-
----
 
 #### AWS Free Tier  
 - **t2.micro** included: 750 hours/month free usage.  
