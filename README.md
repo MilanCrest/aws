@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Protecting IAM Users and Groups](#protecting-iam-users-and-groups)
 
-### Protecting IAM Users and Groups**  
+### Protecting IAM Users and Groups  
 
 #### **Core Concepts**  
 - **Password Policy:** Strengthens security by enforcing password rules.  
