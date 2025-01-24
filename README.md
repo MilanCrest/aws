@@ -261,15 +261,15 @@
 - **Inbound Traffic**: Blocked by default, requires explicit allow.
 - **Outbound Traffic**: Allowed by default, can be restricted.
 - **Region/VPC Specific**: Tied to a specific Region or VPC.
-- **Cross-SG Access**: Allow from another SG instead of IPs.
+- **Cross-SG Access**: Can allow from another SG instead of IPs.
 - **Timeout/Connection Refused**:
   - **Timeout**: Traffic blocked.
   - **Connection Refused**: Traffic allowed, app not running.
 - **Ports and Protocols**:
-  - `22`: SSH
+  - `22`: SSH (for Linux)
   - `21`: FTP
   - `80`: HTTP
   - `443`: HTTPS
-  - `3389`: RDP
+  - `3389`: RDP (Remote Desktop for Windows)
 
 ---
