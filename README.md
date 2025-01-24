@@ -246,10 +246,10 @@
 - Key attributes: Computing, Memory, Networking.
 - ex. c5d.4xlarge (c: Instance class, 5: version, d: Instance variant (optional), 4xlarge: Size)
 - Identify Instance Classes:
-  - T, M, A: General purpose (Web, Repo, etc.)
-  - C: Compute optimized (High Processing, Game, ML, etc.)
-  - R, X, Z: Memory optimized (Large in-memory dataset for fast performance, ElastiCache, BI)
-  - I, D, H: Storage optimized (High performance local storage, Distributed sys., warehouses etc.)
+  - T, M, A: **General purpose** (Web, Repo, etc.)
+  - C: **Compute optimized** (High Processing, Game, ML, etc.)
+  - R, X, Z: **Memory optimized** (Large in-memory dataset for fast performance, ElastiCache, BI)
+  - I, D, H: **Storage optimized** (High performance local storage, Distributed sys., warehouses etc.)
 - t2.micro: Free tier eligible, 750 hrs/month FREE
 
 ---
