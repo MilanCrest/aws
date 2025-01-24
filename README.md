@@ -12,6 +12,7 @@
     - [IAM Shared Responsibility Model](#iam-shared-responsibility-model)
 2. [EC2](#ec2)
     - [EC2: Elastic Compute Cloud](#ec2)
+    - [EC2 Instance Types](#ec2-instance-types)
 ---
 ## IAM
 ### IAM: Users, Groups, Policies
@@ -236,5 +237,19 @@
 #### AWS Free Tier  
 - **t2.micro** included: 750 hours/month free usage.  
 - Perfect for testing and learning AWS services.
+
+---
+
+#### EC2 Instance Types
+
+- Seven instance types.
+- Key attributes: Computing, Memory, Networking.
+- ex. c5d.4xlarge (c: Instance class, 5: version, d: Instance variant (optional), 4xlarge: Size)
+- Identify Instance Classes:
+  - T, M, A: General purpose (Web, Repo, etc.)
+  - C: Compute optimized (High Processing, Game, ML, etc.)
+  - R, X, Z: Memory optimized (Large in-memory dataset for fast performance, ElastiCache, BI)
+  - I, D, H: Storage optimized (High performance local storage, Distributed sys., warehouses etc.)
+- t2.micro: Free tier eligible, 750 hrs/month FREE
 
 ---
