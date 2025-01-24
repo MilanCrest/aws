@@ -13,6 +13,7 @@
 2. [EC2](#ec2)
     - [EC2: Elastic Compute Cloud](#ec2)
     - [EC2 Instance Types](#ec2-instance-types)
+    - [AWS Security Groups](#aws-security-groups)
 ---
 ## IAM
 ### IAM: Users, Groups, Policies
