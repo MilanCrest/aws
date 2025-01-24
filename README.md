@@ -253,3 +253,23 @@
 - t2.micro: Free tier eligible, 750 hrs/month FREE
 
 ---
+
+#### AWS Security Groups
+
+- **Virtual Firewalls**: Control inbound/outbound traffic for instances.
+- **Allow Rules Only**: No deny rules; only allows.
+- **Inbound Traffic**: Blocked by default, requires explicit allow.
+- **Outbound Traffic**: Allowed by default, can be restricted.
+- **Region/VPC Specific**: Tied to a specific Region or VPC.
+- **Cross-SG Access**: Allow from another SG instead of IPs.
+- **Timeout/Connection Refused**:
+  - **Timeout**: Traffic blocked.
+  - **Connection Refused**: Traffic allowed, app not running.
+- **Ports and Protocols**:
+  - `22`: SSH
+  - `21`: FTP
+  - `80`: HTTP
+  - `443`: HTTPS
+  - `3389`: RDP
+
+---
